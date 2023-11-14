@@ -5,13 +5,27 @@
     box-sizing: border-box;
   }
   main{
-    margin: auto 30rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-  .contenaire-formulaire {
+
+h1{
+  text-align: center;
+}
+
+  form {
+    height: 10rem;
     display: flex;
     flex-direction: column;
-    text-align: center;
     padding-bottom: 1rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
+    background-color: beige;
+  }
+
+  button{
+    width: 60%;
+    margin: auto;
+    background-color: antiquewhite;
   }
   
